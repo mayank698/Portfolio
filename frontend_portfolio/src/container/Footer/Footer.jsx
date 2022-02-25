@@ -3,7 +3,7 @@ import { images } from "../../constants";
 import AppWrap from "../../Wrapper/AppWrap";
 import MotionWrap from "../../Wrapper/MotionWrap";
 import "./Footer.scss";
-import { urlFor, client } from "../../client";
+import { client } from "../../client";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="app__flex">
             <input
               type="text"
-              className="p-text"
+              className="p1-text"
               placeholder="Your Name"
               value={name}
               onChange={handleChangeInput}
@@ -66,7 +66,7 @@ const Footer = () => {
           <div>
             <input
               type="email"
-              className="p-text"
+              className="p1-text"
               placeholder="Your Email"
               value={email}
               onChange={handleChangeInput}
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
           <div>
             <textarea
-              className="p-text"
+              className="p1-text"
               placeholder="Your message"
               value={message}
               name="message"
@@ -83,7 +83,7 @@ const Footer = () => {
             />
           </div>
           
-            <button className="p-text" onClick={handleSubmit} type="button">
+            <button className="p1-text" onClick={handleSubmit} type="button">
               {loading ? "Sending" : "Send Message"}
             </button>
           
@@ -100,5 +100,5 @@ const Footer = () => {
 export default AppWrap(
   MotionWrap(Footer, "app__footer"),
   "contact",
-  "app__whitebg"
+  "app__primarybg"
 );

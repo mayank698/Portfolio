@@ -3,7 +3,7 @@ import About from "./container/About/About";
 import Footer from "./container/Footer/Footer";
 import Header from "./container/Header/Header";
 import Skills from "./container/Skills/Skills";
-import Testimonial from "./container/Testimonials/Testimonial";
+// import Testimonial from "./container/Testimonials/Testimonial";
 import Work from "./container/Work/Work";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.scss"
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   );
