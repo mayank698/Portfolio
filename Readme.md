@@ -16,5 +16,6 @@ In case you haven't seen the website, this is the link for website: https://port
 
 ## Install dependencies
 
-For frontend:  `cd frontend_portfolio` `npm i` .
+For frontend:  `cd frontend_portfolio` `npm i`.
+
 For backend: `cd backend_sanity` `npm i`.
