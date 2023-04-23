@@ -6,8 +6,7 @@ import "./Navbar.scss";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="app__navbar">
-    
+    <nav className="app__navbar">   
       <ul className="app__navbar-links">
         {["home", "about", "contact", "work", "skills"].map(
           (item) => (
